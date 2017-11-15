@@ -25,6 +25,10 @@ public class MenuScreen : View {
 		LoadManager.Instance.LoadScene (SceneNames.MY_FIRST_AR_SCENE);
 	}
 
+	public void ExperimentARClicked() {
+		LoadManager.Instance.LoadScene (SceneNames.TEST_AR_SCENE);
+	}
+
 	public override void OnRootScreenBack ()
 	{
 		base.OnRootScreenBack ();

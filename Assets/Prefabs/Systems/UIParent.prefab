@@ -79,7 +79,7 @@ GameObject:
   - component: {fileID: 81099121397886840}
   m_Layer: 5
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,7 +191,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 10
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 32
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiRoot: {fileID: 1148292924252854}
   screenPrefabLocation: UI
-  firstScreen: MenuScreen
+  firstScreen: GenericHUDScreen
   activeViews: []
   viewPool: []
 --- !u!114 &114222653339581876
