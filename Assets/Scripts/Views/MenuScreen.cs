@@ -17,6 +17,14 @@ public class MenuScreen : View {
 		});
 	}
 
+	public void OnFloorFinderClicked() {
+		LoadManager.Instance.LoadScene (SceneNames.FLOOR_FINDING_SCENE);
+	}
+
+	public void MyFirstARClicked() {
+		LoadManager.Instance.LoadScene (SceneNames.MY_FIRST_AR_SCENE);
+	}
+
 	public override void OnRootScreenBack ()
 	{
 		base.OnRootScreenBack ();

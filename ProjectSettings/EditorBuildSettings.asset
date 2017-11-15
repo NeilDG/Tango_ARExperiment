@@ -8,3 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 837a34cf5f457e54094c3c2921b60436
+  - enabled: 1
+    path: Assets/TangoSDK/Examples/Scenes/ExperimentalMeshOcclusion.unity
+    guid: f3526adf21a894c2fa15e0ce8bad168a
+  - enabled: 1
+    path: Assets/TangoSDK/Examples/Scenes/ExperimentalFloorFinding.unity
+    guid: 41d3b0f2be66c4f89938682fa7778923
+  - enabled: 1
+    path: Assets/Scenes/MyFirstARScene.unity
+    guid: ae2c52de63f9af745b4a7c68df8e46db
