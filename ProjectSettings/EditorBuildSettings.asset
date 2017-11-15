@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MyFirstARScene.unity
     guid: ae2c52de63f9af745b4a7c68df8e46db
+  - enabled: 1
+    path: Assets/Scenes/FloorFinding.unity
+    guid: d5478151014144746ba09377a72040d0
